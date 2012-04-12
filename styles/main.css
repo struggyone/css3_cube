@@ -1,0 +1,137 @@
+body{
+	padding:0;
+	margin:0;
+	background-color:#CCC;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+	width:530px;
+	min-height:600px;
+	margin:30px auto;
+	padding:15px;
+	background-color:#FFF;
+	overflow:hidden;
+}
+
+#header{
+	margin-bottom:10px;
+	padding:0 6px;
+}
+
+#content{
+	position:relative;
+	top:-20px;
+	left:-85px;
+}
+
+h1{
+	margin:10px 0 0;
+	text-align:center;
+}
+
+div.cube{
+	position:absolute;
+	cursor:pointer;
+}
+
+div.cube_1{
+	z-index:3;
+}
+
+div.cube_2{
+	left:157px;
+	top:-91px;
+	z-index:2;
+}
+
+div.cube_3{
+	left:314px;
+	top:-182px;
+	z-index:1;
+}
+
+div.cube div{
+	width:200px;
+	height:200px;
+	padding:10px;
+	margin:0;
+	position:relative;
+}
+
+div.cube h2, div.cube p{
+	margin:0;
+	opacity:0.4;
+}
+
+div.cube .top{
+	background-color:#0CF;
+	left:120px;
+	top:47px;
+}
+
+div.cube .front{
+	background-color:#00F;
+	left:230px;
+	top:0;
+}
+
+div.cube .back{
+	background-color:#0BF;
+	left:10px;
+	top:-1006px;
+	z-index:-1;
+}
+
+div.cube .left{
+	background-color:#09F;
+	left:10px;
+	top:-220px;
+}
+
+div.cube .right{
+	background-color:#0DF;
+	left:230px;
+	top:-567px;
+	z-index:-1;
+}
+
+div.cube .shadow{
+	/*background-color:#333;*/
+	left:340px;
+	top:-487px;
+	opacity: .5;
+}
+
+
+div.cube:hover .top{
+	background-color:#0FF;
+	opacity:0.8;
+}
+
+div.cube:hover .front{
+	background-color:#0BF;
+	opacity:0.8;
+}
+
+div.cube:hover .left{
+	background-color:#0DF;
+	opacity:0.8;
+}
+
+
+
+div.cube_1:hover{
+	left: 153px;
+	top: 89px;
+}
+
+div.cube_2:hover{
+	left: 311px;
+	top: -2px;
+}
+
+div.cube_3:hover{
+	left: 467px;
+	top: -93px;
+}
